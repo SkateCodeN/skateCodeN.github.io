@@ -1,0 +1,140 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+    
+}
+
+.container{
+    background: url("./katrin-hauf-3q3O3QftPVo-unsplash.jpg"); 
+    background-size: cover;
+    color: white;
+
+}
+
+.body-img-wrapper{
+    
+    
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    
+    align-items: center;
+   
+   display: flex;
+    flex-grow: inherit;
+    
+    
+}
+.body-image img{
+    background-color:  rgb(145, 23, 23);
+    border-radius: 50%;
+    
+}
+
+.social-media-icons-wrapper{
+    
+    padding: 0 1em;
+}
+.content{
+    max-width: 650px;
+   
+    padding: 7rem 5rem;
+    background-color: rgb(145, 23, 23);
+}
+.content-text p{
+    padding:1.7rem 0;
+    font-size: 1.07rem;
+}
+
+.button-cls{
+    font-size: 1rem;
+    margin:2rem 0;
+    background-color: black;
+    padding: 10px 20px;
+    font-weight: bold;
+    
+    color: white;
+   
+}
+
+.body-text{
+    margin: 0 auto;
+    width: 100%;
+    padding: 1rem 5rem;
+    max-width: 750px;
+}
+
+.body-body-text{
+    font-size: 1.07rem;
+    margin-bottom: 2rem;
+}
+.body-text h2{
+    font-size: 2rem;
+}
+
+.projects-wrapper{
+    background-color: black;
+    color:white;
+    margin: 0 auto;
+    width: 100%;
+    padding: 1rem 5rem;
+    max-width: 750px;
+    
+}
+
+.project-wrapper{
+    display: flex;
+    margin-bottom: 2rem;
+}
+/* Need to adjust image and action button on projects on smaller screens */
+.project-image{
+    display: flex;
+    
+    margin-right:1rem;
+    
+    flex-direction: column;
+}
+
+.project-image button{
+    background-color: turquoise;
+    margin-top: 10%;
+    padding:.5rem 0;
+
+}
+
+.mystery{
+    width:100px;
+    background-color: white; 
+    color:black; 
+    height:80px;
+    font-size: 2rem;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.resume-wrapper{
+    
+    margin: 0 auto;
+    width: 100%;
+    padding: 1rem 5rem;
+    max-width: 750px;
+}
+
+.call-to-action{
+   
+    background-color: black;
+}
+
+.cta-text{
+    margin: 0 auto;
+    
+    max-width: 750px;
+    
+    padding: 1rem 5rem;
+    color:white;
+}
